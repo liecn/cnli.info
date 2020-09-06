@@ -13,34 +13,34 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "{{ 'assets/icons/icon@0,25x.png' | relative_url }}",
+      "src": "{{ 'assets/icons/48.png' | relative_url }}",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "{{ 'assets/icons/icon@0,5x.png' | relative_url }}",
+      "src": "{{ 'assets/icons/96.png' | relative_url }}",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "{{ 'assets/icons/icon@0,75x.png' | relative_url }}",
+      "src": "{{ 'assets/icons/144.png' | relative_url }}",
       "type": "image/png",
       "sizes": "144x144"
     },
     {
-      "src": "{{ 'assets/icons/icon.png' | relative_url }}",
+      "src": "{{ 'assets/icons/192.png' | relative_url }}",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "{{ 'assets/icons/icon@2x.png' | relative_url }}",
+      "src": "{{ 'assets/icons/256.png' | relative_url }}",
       "type": "image/png",
-      "sizes": "384x384"
+      "sizes": "256x256"
     },
     {
-      "src": "{{ 'assets/icons/icon@3x.png' | relative_url }}",
+      "src": "{{ 'assets/icons/512.png' | relative_url }}",
       "type": "image/png",
-      "sizes": "576x576"
+      "sizes": "512x512"
     }
   ]
 }
