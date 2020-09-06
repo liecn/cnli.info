@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://domain.tld
+url:                   https://cnli.info
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -31,7 +31,7 @@ tagline:               >
   He was alone -- and with a Galaxy to care for.
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [Developer, Scientist]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -47,6 +47,7 @@ author:
   github: Liecn
   facebook: ChenningDaneel
   telegram: ChenningLi
+  rss:      https://cnli.info/feed.xml
 
 # Add links to the sidebar.
 menu:
@@ -82,8 +83,9 @@ paginate_path:         /blog/page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_image:          /assets/img/img-bg.jpeg
+# accent_color:          rgb(79,177,186)
+accent_color:          rgb(0,0,0)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
@@ -104,7 +106,7 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
 defaults:
   - scope:
-      path:            hyde
+      path:            spirit
     values:
       accent_color:    rgb(38,139,210)
       accent_image:
@@ -207,7 +209,7 @@ hydejack:
 
     # Set to `true` to use the dark theme based on visitors' local time.
     dynamic:           true
-    sunrise:           6
+    sunrise:           8
     sunset:            18
 
     # Set to `true` to allow visitors to switch between light and dark mode.
@@ -254,6 +256,9 @@ exclude:
   - _js
   - _plugins
   - .sass-cache
+  - hydejack
+  - hyde
+  
 include:
   - LICENSE.md
 
