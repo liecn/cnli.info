@@ -34,6 +34,7 @@ spotify:
 telegram:
   name: Telegram
   icon: icon-telegram
+  prepend: "https://web.telegram.org/"
 twitter:
   name: Twitter
   icon: icon-twitter

@@ -5,7 +5,7 @@
     --gray-text: rgba(255,255,255,.625);
     --menu-text: rgba(255,255,255,.25);
     --body-color: #d8d8d8;
-    --body-bg: #{hsl(hue($theme-color), 12.5%, 20%)};
+    --body-bg: #{hsl(hue($theme-color), 0, 45%)};
     --border-color: #{hsl(hue($theme-color), 12.5%, 35%)};
   }
 }

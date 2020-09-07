@@ -1,6 +1,7 @@
 ---
+layout: home
 cover: true
-image: /assets/img/hydejack-8.png
+image: /assets/img-bg.png
 hide_description: true
 ---
 

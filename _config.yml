@@ -55,10 +55,16 @@ menu:
     url:               /blog/
   - title:             Projects
     url:               /projects/
+  - title:             CheatSheet
+    url:               /docs/
   - title:             Résumé*
     url:               /resume/
-  - title:             Documentation
-    url:               /docs/
+
+blog_category_list:
+  - title:  machine
+  - title:  spirit
+  - title:  data_analytics
+
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -67,6 +73,13 @@ menu:
 #     url:               /impress/
 #   - title:             Cookies Policy
 #     url:               /cookies-policy/
+legal:
+  - title:             NOTICE
+    url:               /NOTICE/
+  - title:             CHANGELOG
+    url:               /CHANGELOG/
+  - title:             PRIVACY POLICY
+    url:               /PRIVACY/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2020. All rights reserved.
@@ -84,13 +97,14 @@ paginate_path:         /blog/page-:num/
 
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/img-bg.jpeg
-# accent_color:          rgb(79,177,186)
-accent_color:          rgb(0,0,0)
+accent_color:          rgb(79,177,186)
+# accent_color:          rgb(0,0,0)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
 theme_color:           rgb(25,55,71)
+# theme_color:          rgb(0,0,0)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -104,28 +118,33 @@ font:                  Noto Sans, Helvetica, Arial, sans-serif
 # To change font-weight, see _sass/variables.scss
 font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
+# The font used for code blocks. Expects a string that is a valid CSS font-family value.
+font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;
+
 defaults:
-  - scope:
-      path:            spirit
+  - 
+    scope:
+      path: "blog"
     values:
-      accent_color:    rgb(38,139,210)
-      accent_image:
-        background:    rgb(32,32,32)
-        overlay:       false
+      accent_image: "/assets/img/post-bg.jpeg"
+      # accent_color: "rgb(38,139,210)"
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
-  - scope:
+  - 
+    scope:
       type:            projects
     values:
       seo:
         type:          WebPage
-  - scope:
+  - 
+    scope:
       type:            featured_categories
     values:
       seo:
         type:          WebPage
-  - scope:
+  - 
+    scope:
       type:            featured_tags
     values:
       seo:
@@ -208,9 +227,9 @@ hydejack:
     always:            false
 
     # Set to `true` to use the dark theme based on visitors' local time.
-    dynamic:           true
+    dynamic:           false
     sunrise:           8
-    sunset:            18
+    sunset:            22
 
     # Set to `true` to allow visitors to switch between light and dark mode.
     icon:              true
@@ -277,6 +296,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-titles-from-headings
+  - jekyll-include-cache
+  - jekyll-last-modified-at
 
 # Theme
 # ---------------------------------------------------------------------------------------
@@ -313,6 +334,32 @@ plugins:
 #     - https://twitter.com/<username>
 #     - https://github.com/<username>
 
+jekyll_compose:
+  default_front_matter:
+    # drafts:
+    #   layout: post
+    #   description: > 
+    #     A short ~160 character description of your post for search engines,
+    #     social media previews, etc.
+    #   image:
+    #     path: /assets/img/sidebar-bg.jpg
+    posts:
+      layout: post
+      description: > 
+        A short ~160 character description of your post for search engines,
+        social media previews, etc.
+      image:
+        path: /assets/img/blog-bg.jpeg
+    projects:
+      layout: project
+      description: > 
+        A short ~160 character description of your post for search engines,
+        social media previews, etc.
+      image:
+        path: /assets/img/projects-bg.jpg
+      links:
+        - title: Project Link
+          url: https://github.com/liecn
 
 # Other Plugins
 # ---------------------------------------------------------------------------------------
