@@ -6,7 +6,7 @@ permalink: /event-horizon/
 <div class="index-content col5">
     <div class="section">
         <ul class="artical-cate">
-            <li class="on"><a href="/event-horizon"><span>Earth's moon</span></a></li>
+            <li class="on"><a href="/event-horizon"><span>Bang</span></a></li>
             <li><a href="/gadgets"><span>捣点东西</span></a></li>
             <li><a href="/photographs"><span>拍点照片</span></a></li>
             <li><a href="/sports"><span>做点运动</span></a></li>
