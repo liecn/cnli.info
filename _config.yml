@@ -43,11 +43,11 @@ author:
 gavatar: /img/favicon-96x96.png
 favicon: /img/favicon.ico
 
-# Google analytics
-ga:
-  id: G-C2LWMR3RJD
-  url: https://cnli.info/
-  userid: 154795237
+# # Google analytics
+# ga:
+#   id: G-C2LWMR3RJD
+#   url: https://cnli.info/
+#   userid: 154795237
 
 # Disqus ID
 disqus:
