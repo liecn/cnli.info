@@ -20,7 +20,7 @@ date: 2020-03-31 22:25:30
 
 ## Bio Page
 
-我个人偏向较整洁简约的网页风格，希望能在单页面内容的约束下向浏览者快速的推销自己。有先后尝试过wordpress，，jekyll的模版，基于vue脚手架从0开始，但功能的冗余性以及界面的不适感让我对内容的维护丧失了基本动力。
+我个人偏向较整洁简约的网页风格，希望能在单页面内容的约束下向浏览者快速的推销自己。有先后尝试过wordpress，jekyll的模版，基于vue脚手架从0开始，但功能的冗余性以及界面的不适感让我对内容的维护丧失了基本动力。
 
 这次的网页模版选择了师兄 [Longfei Shangguan](https://shanggdlk.github.io/)，单页面html，没有多余的脚手架及库的引入，但整体的简洁却让我倍感舒适。
 
@@ -36,7 +36,7 @@ date: 2020-03-31 22:25:30
 ## Conference Tracker Page
 
 想维护一个top-tier conference的追踪界面的初衷有二：
-- Cheshu师兄的conference link对我的科研起步有很大的主力，因为，每天看看那个dream conference的时间节点都是很振奋人心的事情呀！
+- [Cheshu师兄](https://cswu.me/index.html#bio) 的 [conference link](http://ct.cswu.me/) 对我的科研起步有很大的主力，因为，每天看看那个dream conference的时间节点都是很振奋人心的事情呀！
 - 我想尝试对开源和本领域的学术研究做一些贡献。通过调研发现关于AI的会议tracker多如牛毛，但network-related的page却凤毛菱角。 
 
 有了初衷，接下来就是设计。
