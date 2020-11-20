@@ -3,7 +3,7 @@ layout: post
 title: 建立自己的Bio和Conference Tracker网页
 description: 需要尝试着把自己推销出去，同时为开源做些贡献。
 permalink: /bio-and-conference-tracker-page/
-categories: [gaia, gadgets]
+categories: [gadgets]
 tags: [Bio, Conference Tracker, Web Development, Template]
 date: 2020-03-31 22:25:30
 ---
