@@ -13,7 +13,7 @@ layout: home
         </ul>
         <div class="cate-bar"><span id="cateBar"></span></div>
         <ul class="artical-list">
-        {% for post in site.categories.cuisine %}
+        {% for post in site.categories.sports %}
             <li>
                 <h2 class="post-title">
                     <a href="{{ post.url }}">{{ post.title }}</a>
