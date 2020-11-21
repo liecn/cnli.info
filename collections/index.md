@@ -2,19 +2,19 @@
 layout: home
 ---
 
-<div class="index-content col2">
+<div class="index-content col5">
     <div class="section">
         <ul class="artical-cate">
             <li><a href="/"><span>Gaia</span></a></li>
-            <li class="on"><a href="/gadgets"><span>捣点东西</span></a></li>
+            <li><a href="/gadgets"><span>捣点东西</span></a></li>
             <li><a href="/photographs"><span>拍点照片</span></a></li>
             <li><a href="/sports"><span>做点运动</span></a></li>
-            <li><a href="/collections"><span>攒点收藏</span></a></li>
+            <li class="on"><a href="/collections"><span>攒点收藏</span></a></li>
             <li><a href="/archive"><span>回到过去</span></a></li>
         </ul>
         <div class="cate-bar"><span id="cateBar"></span></div>
         <ul class="artical-list">
-        {% for post in site.categories.gadgets %}
+        {% for post in site.categories.collections %}
             <li>
                 <h2 class="post-title">
                     <a href="{{ post.url }}">{{ post.title }}</a>

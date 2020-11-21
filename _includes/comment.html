@@ -4,9 +4,11 @@
 
  // Disqus js code START
  var disqus_config = function() {
-   this.page.url = '{{ site.url }}{{ page.id | remove:'/' }}/';
-   this.page.identifier = '{{page.id | remove:'/' }}';
+   this.page.url = '{{ site.url }}/{{ page.permalink | remove:'/' }}/';
+   this.page.identifier = '{{page.permalink | remove:'/' }}';
+   console.log(this.page.url,this.page.identifier)
  };
+
 
  function toggleDisqusComments(container) {
    if ($(container).has("iframe").length > 0) {
@@ -16,7 +18,7 @@
    }
    (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
-    s.src = 'https://cnli-info.disqus.com/embed.js';
+    s.src = 'https://{{site.disqus.shortname}}.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
     })();
@@ -24,29 +26,11 @@
  }
  // Disqus code END
 
-
- //  Commento js code START
-
- function toggleCommentoComments(container) {
-   if ($(container).has(" #commento-main-area").length > 0) {
-     // Subsequent clicks
-     $(container + " #commento").toggle("fast", "linear");
-     return;
-   } else {
-     // First click
-     window.commento.main();
-   }
- }
- //  Commento js code END
-
  // Enable bootstrap CSS tooltip option.
  $(function() {
    $('[data-toggle="tooltip"]').tooltip()
  })
 </script>
-
-<script defer src="https://commento.dlyang.me/js/commento.js" data-auto-init="false" data-css-override="{{ site.url }}/css/commento-css-override.css"></script>
-<noscript>Please enable JavaScript to load the comments.</noscript>
 
 
 <!-- Put the "ld-comment-container" DIV to wherever the comment blocks are shown. -->
@@ -55,42 +39,10 @@
   <div class="ld-comment-container">
     <div id="disqus_container">
       <div style="margin-bottom:20px" class="right"></div>
-      <!-- <a href="#comment-disqus" class="comment" onclick="toggleDisqusComments('#disqus_container');">
+      <a href="#comment-disqus" class="comment" onclick="toggleDisqusComments('#disqus_container');">
         查看 <strong>Disqus</strong> 评论
-      </a> -->
-      <div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://cs-conference-tracker.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-      <!-- <div id="comment-tips-tooltip">
-        <a href="#comment-tips" class="comment-tips" data-html="true" data-toggle="tooltip" title="请优先使用 Disqus，但需要翻墙。<br><br>如果👆 Disqus 加载不出来可以用👇 Commento。<br>支持 Markdown 语法。匿名评论无需注册但要审核，欢迎在评论后留下称呼方式。">Tips</a>
-      </div> -->
-      <!-- <span class="comment-count">（<a href="{{ site.url }}{{ page.id | remove:'/' }}/#disqus_thread" style="font-size:18px;">0</a>）</span> -->
+      </a>
       <div id="disqus_thread"></div>
     </div>
-
-    <!-- <div id="commento_container">
-      <div id="cmt_container">
-        <a href="#comment-commento" class="comment" onclick="toggleCommentoComments('#commento_container');">
-          查看<strong>Commento</strong>评论
-        </a>
-      </div>
-      <div id="commento"></div>
-    </div> -->
   </div>
 </div>

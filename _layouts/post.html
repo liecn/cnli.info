@@ -16,7 +16,9 @@ layout: default
 <div id="content">
 <div class="entry">
   <h1 class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
-  <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</p>
+  <div>
+  <p class="entry-date">🕰️ {{ page.date|date:"%Y-%m-%d" }} &nbsp&nbsp🌈	☀️☀️☀️☀️☀️ 🌈&nbsp&nbsp	<a href="{{ site.url }}/{{ page.permalink | remove:'/' }}/#disqus_thread" data-disqus-identifier="{{page.permalink | remove:'/' }}"></a><script id="dsq-count-scr" src="//{{site.disqus.shortname}}.disqus.com/count.js" async></script>✍️ </p>
+</div>
   {% if page.description != null %}
   <pre>{{ page.description }}</pre>
   {% endif %}

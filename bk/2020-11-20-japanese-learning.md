@@ -2,7 +2,7 @@
 layout: post
 title: 日语学习日志开篇
 description: 这是之前零碎日语学习的总结，希望能自此开始系统的日语学习。
-permalink: /japanese-learning-1/
+permalink: /japanese-learning/
 categories: [gadgets]
 tags: [日语]
 date: 2020-11-20 12:00:00

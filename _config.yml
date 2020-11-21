@@ -1,4 +1,4 @@
-url: "https://cnli.info"
+url: "https://cnli.info/"
 markdown: kramdown
 highlighter: rouge
 
@@ -51,7 +51,7 @@ favicon: /img/favicon.ico
 
 # Disqus ID
 disqus:
-  shortname: MuleScifi
+  shortname: cnli-info
 
 # # LiveRe ID
 # livere:
