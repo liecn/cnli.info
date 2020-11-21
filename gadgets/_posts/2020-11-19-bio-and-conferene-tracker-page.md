@@ -5,7 +5,7 @@ description: 需要尝试着把自己推销出去，同时为开源做些贡献�
 permalink: /bio-and-conference-tracker-page/
 categories: [gadgets]
 tags: [Bio, Conference Tracker, Web Development, Template]
-date: 2020-03-31 22:25:30
+date: 2020-11-19 22:25:30
 ---
 
 # 　
