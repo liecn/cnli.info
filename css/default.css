@@ -160,7 +160,7 @@ figure figcaption {
 .index-content .artical-cate li a:hover { text-decoration:none; }
 .index-content .artical-cate li.on span{ color:red; }
 
-.index-content .cate-bar { height:3px; width:70%; margin:0 auto;margin-bottom:100px; }
+.index-content .cate-bar { height:2px; width:70%; margin:0 auto;margin-bottom:80px; }
 .index-content #cateBar { display:inline-block; zoom:1; height:3px; background:red; position:relative; width:0; }
 
 /***************Wiki Style*****************/
@@ -826,4 +826,10 @@ div .cuisine-title h2{
 }
 
 .tooltip.top {z-index: 3;}
+
+/* hr{
+  height: 2px;
+  background-color: #E75480;
+  border: none;
+} */
 

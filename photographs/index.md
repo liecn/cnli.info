@@ -15,6 +15,7 @@ layout: home
         <div class="cate-bar"><span id="cateBar"></span></div>
         <ul class="artical-list">
         {% for post in site.categories.photographs %}
+            <hr>
             <li>
                 <h2 class="post-title">
                     <a href="{{ post.url }}">{{ post.title }}</a>

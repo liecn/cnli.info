@@ -17,10 +17,13 @@ layout: home
 
         <ul class="artical-list">
             {% for post in paginator.posts limit:20 %}
-            <li>
-                <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                <div class="title-desc">{{ post.description }}</div>
-            </li>
+                {% if post.categories[0] != "blog" %}
+                    <hr>
+                    <li>
+                        <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        <div class="title-desc">{{ post.description }}</div>
+                    </li>
+                {% endif %}
             {% endfor %}
         </ul>
         {% include page-index.html %}
