@@ -17,11 +17,11 @@ date: 2021-01-08 12:25:30
 ## 资源
 - [代码完全开源](https://github.com/liecn/StockTracker)，注：本文内容于2020年12月6日测试并进入维护。
 
-| <img src='https://github.com/liecn/ios_course/raw/main/imgs/demo_1_subtitle.gif' height="250"> | <img src='https://github.com/liecn/ios_course/raw/main/imgs/demo_2_subtitle.gif' height="250">|
+| <img src='https://github.com/liecn/ios_course/raw/master/imgs/demo_1_subtitle.gif' height="250"> | <img src='https://github.com/liecn/ios_course/raw/master/imgs/demo_2_subtitle.gif' height="250">|
 
 - App的ui设计，制作[wireframe](https://www.figma.com/community)
 
-| <img style="float: left;" src='https://github.com/liecn/ios_course/raw/main/imgs/wireframe.png' height="250">   | <img style="float: right;" src='https://github.com/liecn/ios_course/raw/main/imgs/wireframe.gif' height="250"> |
+| <img style="float: left;" src='https://github.com/liecn/ios_course/raw/master/imgs/wireframe.png' height="250">   | <img style="float: right;" src='https://github.com/liecn/ios_course/raw/master/imgs/wireframe.gif' height="250"> |
 
 - Learn Swift Faster: [hackingwithswift](https://www.hackingwithswift.com/)
 
