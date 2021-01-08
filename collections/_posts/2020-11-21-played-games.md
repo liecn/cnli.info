@@ -7,7 +7,6 @@ permalink: /played-games/
 categories: [collections]
 # id: played-games
 tags: [游戏人生]
-date: 2020-11-21 12:00:00
 --- 
 <style>
 table th:first-of-type {
