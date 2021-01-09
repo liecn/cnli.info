@@ -7,11 +7,11 @@ permalink: /event-horizon/
     <div class="section">
         <ul class="artical-cate">
             <li class="on"><a href="/event-horizon"><span>Bang</span></a></li>
-            <li><a href="/gadgets"><span>捣点东西</span></a></li>
-            <li><a href="/photographs"><span>拍点照片</span></a></li>
-            <li><a href="/sports"><span>做点运动</span></a></li>
-            <li><a href="/collections"><span>攒点收藏</span></a></li>
-            <li><a href="/archive"><span>回到过去</span></a></li>
+            <li><a href="{{ site.dir_main }}/gadgets"><span>发明家</span></a></li>
+            <li><a href="{{ site.dir_main }}/chatterbox"><span>话匣子</span></a></li>
+            <li><a href="{{ site.dir_main }}/review"><span>观后感</span></a></li>
+            <li><a href="{{ site.dir_main }}/collections"><span>广囤粮</span></a></li>
+            <li><a href="{{ site.dir_main }}/archive"><span>水逆</span></a></li>
         </ul>
         <div class="cate-bar"><span id="cateBar"></span></div>
         <ul class="artical-list">

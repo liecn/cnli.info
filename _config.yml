@@ -43,6 +43,8 @@ author:
 gavatar: /img/favicon-96x96.png
 favicon: /img/favicon.ico
 
+dir_main: /main
+
 # # Google analytics
 # ga:
 #   id: G-C2LWMR3RJD

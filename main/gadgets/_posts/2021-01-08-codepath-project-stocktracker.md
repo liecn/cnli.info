@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The StockTracker as the ios Course Project
+title: ios课程项目：StockTracker
 description: 参加CodePath的ios课程，并完成课程项目。
 permalink: /codepath-project-stocktracker/
 categories: [gadgets]
@@ -41,7 +41,8 @@ date: 2021-01-08 12:25:30
 - Property Observers: There are two kinds of property observer: `willSet` and `didSet`, and they are called before or after a property is changed. In `willSet` Swift provides your code with a special value called `newValue` that contains what the new property value is going to be, and in `didSet` you are given `oldValue` to represent the previous value.
 - Computed Properties: To make a computed property, place an open brace after your property then use either `get` or `set` to make an action happen at the appropriate time.
 
-
 ## End
 
-Null
+结业证书和决赛圈证书（10/76），可惜没能进入前ios的前3名（3/6）拿到奖金。
+<object data="/img/certificate_ios.pdf" width="600" height="500" type="application/pdf"></object>
+<object data="/img/certificate_final.pdf" width="600" height="500" type="application/pdf"></object>

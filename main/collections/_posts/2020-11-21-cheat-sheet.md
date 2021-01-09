@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 写在小本本上的小抄
+title: terminal commands的小抄
 date: 2020-11-21 23:59:59
 description: 用白纸黑字对抗遗忘。
 permalink: /cheat-sheet/

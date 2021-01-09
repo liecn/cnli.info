@@ -20,7 +20,7 @@ layout: default
   <p class="entry-date">🕰️ &nbsp{{ page.date|date:"%Y-%m-%d" }} &nbsp&nbsp🌈	☀️☀️☀️☀️☀️ 🌈&nbsp&nbsp	<a href="{{ site.url }}{{ page.permalink | remove:'/' }}/#disqus_thread" data-disqus-identifier="{{page.permalink | remove:'/' }}">Join our discussions&nbsp</a><script id="dsq-count-scr" src="//{{site.disqus.shortname}}.disqus.com/count.js" async></script>✍️ </p>
 </div>
   {% if page.description != null %}
-  <pre>{{ page.description }}</pre>
+  <pre style="background-color:rgba(211, 211, 211, 0.5);color: black;">{{ page.description }}</pre>
   {% endif %}
 
   {{ content }}
