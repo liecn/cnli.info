@@ -1,12 +1,12 @@
 ---
 layout: page
-title: 涉猎的游戏列表
-date: 2020-11-21 23:59:59
-description: 记录下自己的游戏人生，不定时更新。
-permalink: /played-games/
+title: 涉猎的影视剧动漫
+date: 2021-02-16 23:59:59
+description: 记录下自己刷过的剧。
+permalink: /watched-shows/
 categories: [collections]
 # id: played-games
-tags: [游戏人生]
+tags: [刷剧]
 --- 
 <style>
 table th:first-of-type {
@@ -26,12 +26,11 @@ table th:nth-of-type(5) {
 }
 </style>
 
-| id | Name | Platform  | Spanning | Note |
+| id | Name | Label  | Status | Note |
 |-----|----|-----------|------------------|
-| 2   | 我的世界/Minecrafts | PC | 2020-Now  | 生于Covid, 目标：理想自宅 |
-| 1   | 英雄联盟/League of legends | PC | 2011-2018  | 横跨高中，胜过高考，死于科研 |
+| 1   | 进击的巨人/Attach on Titan | 动漫 | 连载  | 余两话完结 |
 
 
 ## 最后更新
 
-2020.11.21
+2021.02.16
